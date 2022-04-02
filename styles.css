@@ -473,6 +473,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: auto;
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -699,4 +703,22 @@ Ensure the default browser behavior of the `hidden` attribute.
 .active\:ring-very-light-gray:active {
   --tw-ring-opacity: 1;
   --tw-ring-color: hsl(0 0% 95% / var(--tw-ring-opacity));
+}
+
+@media (min-width: 1024px) {
+  .lg\:max-w-5xl {
+    max-width: 64rem;
+  }
+
+  .lg\:max-w-4xl {
+    max-width: 56rem;
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+
+  .lg\:gap-8 {
+    gap: 2rem;
+  }
 }
